@@ -1,0 +1,201 @@
+/* XL device */
+@media (max-width:1199px) {
+    
+    /* banner section */
+    .navbar ul li a {
+        font-size: 12px;
+    }
+
+    .navbar ul li:last-child a {
+        padding: 10px 10px !important;
+        display:inline-block;
+    }
+
+    
+
+
+
+    .steps-section {
+        padding: 80px;
+    }
+
+
+}
+
+
+/* Lg device */
+@media (max-width:991px) {
+    .banner-section .container h1 {
+        font-size: 40px;
+    }
+
+    .banner-section .container .banner-inner {
+        padding: 30px 0;
+    }
+    .banner-section .container .btn-custom {
+        font-size: 12px;
+    }
+
+
+    .steps-section .steps span {
+        margin: 20px;
+        display: inline-block;
+    }
+    .steps-section {
+        text-align: center;
+    }
+    .steps-section .header::after {
+        left: 42%;
+    }
+    .steps-section .header {
+        text-align: center;
+    }
+    .steps-section p {
+        width: 60%;
+        margin: auto;
+    }
+
+    /* blog section  */
+    .blog-section .card .card-body h3 {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    .blog-section .card .card-body p {
+        font-size: 10px;
+    }
+
+
+    .counter-section {
+        padding: 35px 0;
+    }
+    .counter-section .counter strong {
+        font-size: 17px;
+    }
+    .counter-section .counter h4 {
+        font-size: 45px;
+    }
+
+
+    .carousel .carousel-inner .carousel-item .client-pic span {
+        right: 43%;
+        bottom: 45px;
+    }
+
+
+    footer {
+        text-align: center;
+    }
+    ul{
+        justify-content: center;
+    }
+    footer .widget h4 {
+        margin: 25px;
+    }
+    footer .widget p {
+        max-width: 100%;
+    }
+
+    .bottom-footer p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .bottom-footer ul {
+        justify-content: center;
+    }
+    footer .widget .footer-4 .notify-box .submit-btn {
+        right: 20%;
+    }
+    footer .widget .footer-4 .notify-box {
+        justify-content: center !important;
+    }
+    
+
+        footer .widget .footer-4 .notify-box input {
+        width: 60%;
+        border-radius: 30px;
+    }
+    footer .widget .footer-4 .notify-box .submit-btn {
+        right: 20%;
+    }
+}
+
+/* Md device */
+@media (max-width:767px) {
+
+    /* header top  */
+    p{
+        text-align: center;
+    }
+    ul{
+        justify-content: center !important;
+    }
+
+    .banner-section .container h1 {
+        font-size: 35px;
+    }
+    .banner-section .container .banner-inner {
+        padding: 10px 0;
+    }
+    .banner-section .container .banner-inner h4 {
+        font-size: 18px;
+    }
+    .banner-section .container .banner-inner h5 {
+        font-size: 12px;
+    }
+
+    section .container .btn-custom, .banner-section .container .btn-custom:hover, .service-section .btn-custom, .contact-section .btn-custom {
+        background-color: #f78f2f;
+        color: white !important;
+        border-radius: 30px;
+        padding: 12px 15px !important;
+        border: 1px solid #f78f2f;
+    }
+
+    /* feature section */
+    .feature-section .feature {
+        margin: 10px 0;
+    }
+
+    /* blog section */
+
+    .blog-section .card {
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    .carousel .carousel-inner .carousel-item .client-pic span {
+        right: 37% !important;
+    }
+}
+
+/* Smaill device */
+@media (max-width:575px) {
+    
+
+    .banner-section .container h1 {
+        font-size: 30px;
+    }
+
+    .banner-section .container .banner-inner {
+        display: none;
+    }
+
+    footer .widget .footer-4 .notify-box input {
+        width: 70%;
+        margin: auto;
+    }
+    footer .widget .footer-4 .notify-box .submit-btn {
+        right: 15%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
